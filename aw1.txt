@@ -1,0 +1,53 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\Lokes>ping 54.169.96.50
+
+Pinging 54.169.96.50 with 32 bytes of data:
+Reply from 54.169.96.50: bytes=32 time=48ms TTL=115
+Reply from 54.169.96.50: bytes=32 time=48ms TTL=115
+Reply from 54.169.96.50: bytes=32 time=52ms TTL=115
+Reply from 54.169.96.50: bytes=32 time=49ms TTL=115
+
+Ping statistics for 54.169.96.50:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 48ms, Maximum = 52ms, Average = 49ms
+
+C:\Users\Lokes>nslookup ec2-54-169-96-50.ap-southeast-1.compute.amazonaws.com
+Server:  aes-static-125.47.22.125.airtel.in
+Address:  125.22.47.125
+
+Non-authoritative answer:
+Name:    ec2-54-169-96-50.ap-southeast-1.compute.amazonaws.com
+Address:  54.169.96.50
+
+
+C:\Users\Lokes>ping 54.169.159.16
+
+Pinging 54.169.159.16 with 32 bytes of data:
+Reply from 54.169.159.16: bytes=32 time=48ms TTL=115
+Reply from 54.169.159.16: bytes=32 time=49ms TTL=115
+Reply from 54.169.159.16: bytes=32 time=47ms TTL=115
+Reply from 54.169.159.16: bytes=32 time=51ms TTL=115
+
+Ping statistics for 54.169.159.16:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 47ms, Maximum = 51ms, Average = 48ms
+
+C:\Users\Lokes>nslookup
+Default Server:  aes-static-125.47.22.125.airtel.in
+Address:  125.22.47.125
+
+> ec2-54-169-159-16.ap-southeast-1.compute.amazonaws.com
+Server:  aes-static-125.47.22.125.airtel.in
+Address:  125.22.47.125
+
+DNS request timed out.
+    timeout was 2 seconds.
+Non-authoritative answer:
+Name:    ec2-54-169-159-16.ap-southeast-1.compute.amazonaws.com
+Address:  54.169.159.16
+
+>
